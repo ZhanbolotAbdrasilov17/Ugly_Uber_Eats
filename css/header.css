@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+}
+
+.header-inner {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 119px;
+  height: 13px;
+  background: #999999;
+}
+
+.actions {
+  width: 205px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-button {
+  width: 62px;
+  height: 27px;
+  background: #D9D9D9;
+}
+@media screen and (max-width: 500px) {
+  .shop-button{
+    display: none;
+  }
+  .actions{
+    width: 140px;
+  }
+  
+}
+@media screen and (max-width: 1030px) {
+  .header-inner{
+    margin: 0px 8px 0px 8px;
+  }
+}
+

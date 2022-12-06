@@ -1,0 +1,38 @@
+nav {
+  width: 100%;
+  background: #F0F0F0;
+}
+
+.nav-inner {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 31px 0px 31px 0px;
+}
+
+.nav-inner>a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 70px;
+}
+.nav-inner>a:last-child{
+  margin: 0;
+}
+@media screen and (max-width: 1030px) {
+  .nav-inner>a{
+    margin-right: 50px;
+  }
+  
+}
+@media screen and (max-width: 579px) {
+  nav{
+    display: none;
+  }
+  .nav-inner{
+    display: none;
+  }
+
+}

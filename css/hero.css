@@ -1,0 +1,79 @@
+.hero {
+  width: 100%;
+  background: #D8D8D8;
+}
+
+.hero-inner {
+  position: relative;
+  height: 364px;
+
+}
+
+.hero-card {
+  width: 389px;
+  height: 204px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 80px;
+  padding: 38px;
+}
+
+.hero-card>h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  color: #1D1D1D;
+  margin-bottom: 54px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info>p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.wait-time {
+  width: 97px;
+  height: 32px;
+  background: #262626;
+
+}
+
+@media screen and (max-width: 579px) {
+  .hero-card {
+    top: 131px;
+    left: 5%;
+    height: 180px;
+    margin: 0;
+    padding: 17px 54px 17px 54px;
+  }
+
+
+
+  .hero-card>h1 {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+
+  .hero-inner {
+    height: 367px;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info>p {
+    margin-bottom: 14px;
+  }
+}
